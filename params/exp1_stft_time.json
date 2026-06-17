@@ -1,0 +1,1 @@
+{"RUN_NAME": "EXP1_STFT_TIME", "METADATA": "/home/dev/Desktop/neurips-guns-multiclass/certus-gun-paperbig-metadata.csv", "SPEC_TYPE": "stft-time", "USE_AUG": true, "TRAINING": {"SEED": 99, "EPOCHS": 100, "BATCH_SIZE": 32, "LR": 0.0005, "CONTINUE_RUN": false, "TIME_LIMIT": 8}, "MODEL": {"CLASSES": 21, "TYPE": "resnet", "VARIANT": 18}}
