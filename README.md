@@ -14,6 +14,8 @@ Install the dependencies using `pip`:
 pip install -r requirements.txt
 ```
 
+You will need a training dataset. Our data is available on [Zenodo](https://zenodo.org/records/20737299). Update the `METADATA` field of the parmater file you use to match the absolute path to the dataset directory.
+
 These experiments were performed on a workstation with 64 GB of RAM, an Intel i9-12900K, and an NVIDIA GeForce GTX 4060.
 
 ## Usage
