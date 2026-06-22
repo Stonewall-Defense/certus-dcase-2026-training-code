@@ -6,6 +6,10 @@ Contains all code and configurations necessary to replicate the results of Certu
 
 Acoustic gunshot detection is a problem with applications across civilian public safety, military operations, and wildlife conservation, yet the field lacks a rigorous exploration of feature extraction techniques with a focus on generalization to realistic data. The mixed effectiveness of commercial gunshot detection and classification systems indicates an open problem that is not adequately addressed by the current literature. In this paper, we present a systematic investigation of common feature extraction techniques using a dataset of 23,000 gunshot recordings across 85 firearms and 21 calibers. We benchmark three feature extraction techniques with 12 total unique parameter sets using ResNet-18. Our results demonstrate that using the correct feature extraction technique can improve top-1 accuracy by up to 20%, and utilizing the correct parameters for a given feature extraction technique can improve that value by up to 4.7%.
 
+## Results
+
+See our results in our preprint on [arXiv](https://arxiv.org/abs/2606.19568).
+
 ## Configuration and Setup
 
 Install the dependencies using `pip`:
@@ -39,4 +43,4 @@ MIT.
 
 ## Citing
 
-TODO.
+Gurny, Sinclair, and Ryan Quinn. “Exploring Feature Extraction Technique Parameters for Acoustic Gunshot Classification.” arXiv: 2606.19568. Preprint, arXiv, June 17, 2026. https://doi.org/10.48550/arXiv.2606.19568.
